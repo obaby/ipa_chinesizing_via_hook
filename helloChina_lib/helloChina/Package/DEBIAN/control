@@ -1,0 +1,17 @@
+Package: cn.org.obaby.helloChina
+Name: helloChina
+Version: 0.1-1
+Description: 
+Section: System
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: obaby
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

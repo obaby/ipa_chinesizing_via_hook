@@ -1,0 +1,8 @@
+秘钥aCDEfGHijKlMnopQRsUvWXz012345689
+
+加密：
+GTM_Encoder  -encodeFile 秘钥 要加密的输入文件 输出加密文件
+GTM_Encoder  -encodeFile aCDEfGHijKlMnopQRsUvWXz012345689 /Users/obaby/Desktop/小项目/汉化保护/cn_strings_jp.plist /Users/obaby/Desktop/小项目/汉化保护/cn_strings_jp.enc
+揭秘：
+GTM_Encoder -decodeFile 秘钥 要解密的输入文件 输出解密文件
+GTM_Encoder -decodeFile aCDEfGHijKlMnopQRsUvWXz012345689 /Users/obaby/Desktop/小项目/汉化保护/cn_strings_jp.enc /Users/obaby/Desktop/小项目/汉化保护/cn_strings_jp.plist.dec

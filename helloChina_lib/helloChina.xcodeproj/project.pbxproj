@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0AABC320216473001B5576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0AABC220216473001B5576 /* Foundation.framework */; };
+		2F0AABC520216473001B5576 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0AABC420216473001B5576 /* UIKit.framework */; };
+		2F0AABCF20216473001B5576 /* helloChina.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABCE20216473001B5576 /* helloChina.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0AABD120216473001B5576 /* helloChina.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABD020216473001B5576 /* helloChina.m */; };
+		2F0AABDD202166B7001B5576 /* BABYStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABDA202166B6001B5576 /* BABYStringEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2F0AABDE202166B7001B5576 /* BABYStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABDB202166B6001B5576 /* BABYStringEncoding.h */; };
+		2F0AABDF202166B7001B5576 /* BABYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABDC202166B7001B5576 /* BABYDefines.h */; };
+		2F0AABF2202166D5001B5576 /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABE1202166D5001B5576 /* SCLAlertView.h */; };
+		2F0AABF3202166D5001B5576 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABE2202166D5001B5576 /* SCLAlertView.m */; };
+		2F0AABF4202166D5001B5576 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABE3202166D5001B5576 /* SCLAlertViewResponder.h */; };
+		2F0AABF5202166D5001B5576 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABE4202166D5001B5576 /* SCLAlertViewResponder.m */; };
+		2F0AABF6202166D5001B5576 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABE5202166D5001B5576 /* SCLAlertViewStyleKit.h */; };
+		2F0AABF7202166D5001B5576 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABE6202166D5001B5576 /* SCLAlertViewStyleKit.m */; };
+		2F0AABF8202166D5001B5576 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABE7202166D5001B5576 /* SCLButton.h */; };
+		2F0AABF9202166D5001B5576 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABE8202166D5001B5576 /* SCLButton.m */; };
+		2F0AABFA202166D5001B5576 /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABE9202166D5001B5576 /* SCLMacros.h */; };
+		2F0AABFB202166D5001B5576 /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABEA202166D5001B5576 /* SCLSwitchView.h */; };
+		2F0AABFC202166D5001B5576 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABEB202166D5001B5576 /* SCLSwitchView.m */; };
+		2F0AABFD202166D5001B5576 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABEC202166D5001B5576 /* SCLTextView.h */; };
+		2F0AABFE202166D5001B5576 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABED202166D5001B5576 /* SCLTextView.m */; };
+		2F0AABFF202166D5001B5576 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABEE202166D5001B5576 /* SCLTimerDisplay.h */; };
+		2F0AAC00202166D5001B5576 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABEF202166D5001B5576 /* SCLTimerDisplay.m */; };
+		2F0AAC01202166D5001B5576 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0AABF0202166D5001B5576 /* UIImage+ImageEffects.h */; };
+		2F0AAC02202166D5001B5576 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AABF1202166D5001B5576 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F0AABBF20216473001B5576 /* libhelloChina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhelloChina.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0AABC220216473001B5576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F0AABC420216473001B5576 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F0AABC920216473001B5576 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		2F0AABCA20216473001B5576 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		2F0AABCC20216473001B5576 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		2F0AABCD20216473001B5576 /* helloChina-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloChina-Prefix.pch"; sourceTree = "<group>"; };
+		2F0AABCE20216473001B5576 /* helloChina.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloChina.h; sourceTree = "<group>"; };
+		2F0AABD020216473001B5576 /* helloChina.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloChina.m; sourceTree = "<group>"; };
+		2F0AABD420216473001B5576 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/lib/0xdeadfa11; sourceTree = "<group>"; };
+		2F0AABDA202166B6001B5576 /* BABYStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABYStringEncoding.m; sourceTree = "<group>"; };
+		2F0AABDB202166B6001B5576 /* BABYStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABYStringEncoding.h; sourceTree = "<group>"; };
+		2F0AABDC202166B7001B5576 /* BABYDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABYDefines.h; sourceTree = "<group>"; };
+		2F0AABE1202166D5001B5576 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		2F0AABE2202166D5001B5576 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		2F0AABE3202166D5001B5576 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		2F0AABE4202166D5001B5576 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		2F0AABE5202166D5001B5576 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		2F0AABE6202166D5001B5576 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		2F0AABE7202166D5001B5576 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		2F0AABE8202166D5001B5576 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		2F0AABE9202166D5001B5576 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		2F0AABEA202166D5001B5576 /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLSwitchView.h; sourceTree = "<group>"; };
+		2F0AABEB202166D5001B5576 /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLSwitchView.m; sourceTree = "<group>"; };
+		2F0AABEC202166D5001B5576 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		2F0AABED202166D5001B5576 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		2F0AABEE202166D5001B5576 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		2F0AABEF202166D5001B5576 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		2F0AABF0202166D5001B5576 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		2F0AABF1202166D5001B5576 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0AABBB20216473001B5576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0AABC320216473001B5576 /* Foundation.framework in Frameworks */,
+				2F0AABC520216473001B5576 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0AABB520216473001B5576 = {
+			isa = PBXGroup;
+			children = (
+				2F0AABE0202166D5001B5576 /* SCLAlertView */,
+				2F0AABC620216473001B5576 /* helloChina */,
+				2F0AABC120216473001B5576 /* Frameworks */,
+				2F0AABC020216473001B5576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F0AABC020216473001B5576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABBF20216473001B5576 /* libhelloChina.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F0AABC120216473001B5576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABC220216473001B5576 /* Foundation.framework */,
+				2F0AABC420216473001B5576 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F0AABC620216473001B5576 /* helloChina */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABDC202166B7001B5576 /* BABYDefines.h */,
+				2F0AABDB202166B6001B5576 /* BABYStringEncoding.h */,
+				2F0AABDA202166B6001B5576 /* BABYStringEncoding.m */,
+				2F0AABCE20216473001B5576 /* helloChina.h */,
+				2F0AABD020216473001B5576 /* helloChina.m */,
+				2F0AABC720216473001B5576 /* Package */,
+				2F0AABCB20216473001B5576 /* Supporting Files */,
+			);
+			path = helloChina;
+			sourceTree = "<group>";
+		};
+		2F0AABC720216473001B5576 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABC820216473001B5576 /* DEBIAN */,
+				2F0AABD220216473001B5576 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		2F0AABC820216473001B5576 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABC920216473001B5576 /* control.txt */,
+				2F0AABCA20216473001B5576 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		2F0AABCB20216473001B5576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABCC20216473001B5576 /* PackageVersion.plist */,
+				2F0AABCD20216473001B5576 /* helloChina-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F0AABD220216473001B5576 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABD320216473001B5576 /* lib */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		2F0AABD320216473001B5576 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABD420216473001B5576 /* 0xdeadfa11 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		2F0AABE0202166D5001B5576 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AABE1202166D5001B5576 /* SCLAlertView.h */,
+				2F0AABE2202166D5001B5576 /* SCLAlertView.m */,
+				2F0AABE3202166D5001B5576 /* SCLAlertViewResponder.h */,
+				2F0AABE4202166D5001B5576 /* SCLAlertViewResponder.m */,
+				2F0AABE5202166D5001B5576 /* SCLAlertViewStyleKit.h */,
+				2F0AABE6202166D5001B5576 /* SCLAlertViewStyleKit.m */,
+				2F0AABE7202166D5001B5576 /* SCLButton.h */,
+				2F0AABE8202166D5001B5576 /* SCLButton.m */,
+				2F0AABE9202166D5001B5576 /* SCLMacros.h */,
+				2F0AABEA202166D5001B5576 /* SCLSwitchView.h */,
+				2F0AABEB202166D5001B5576 /* SCLSwitchView.m */,
+				2F0AABEC202166D5001B5576 /* SCLTextView.h */,
+				2F0AABED202166D5001B5576 /* SCLTextView.m */,
+				2F0AABEE202166D5001B5576 /* SCLTimerDisplay.h */,
+				2F0AABEF202166D5001B5576 /* SCLTimerDisplay.m */,
+				2F0AABF0202166D5001B5576 /* UIImage+ImageEffects.h */,
+				2F0AABF1202166D5001B5576 /* UIImage+ImageEffects.m */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F0AABBC20216473001B5576 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0AABFA202166D5001B5576 /* SCLMacros.h in Headers */,
+				2F0AABDF202166B7001B5576 /* BABYDefines.h in Headers */,
+				2F0AABF2202166D5001B5576 /* SCLAlertView.h in Headers */,
+				2F0AABF8202166D5001B5576 /* SCLButton.h in Headers */,
+				2F0AABF4202166D5001B5576 /* SCLAlertViewResponder.h in Headers */,
+				2F0AABDE202166B7001B5576 /* BABYStringEncoding.h in Headers */,
+				2F0AABF6202166D5001B5576 /* SCLAlertViewStyleKit.h in Headers */,
+				2F0AAC01202166D5001B5576 /* UIImage+ImageEffects.h in Headers */,
+				2F0AABCF20216473001B5576 /* helloChina.h in Headers */,
+				2F0AABFB202166D5001B5576 /* SCLSwitchView.h in Headers */,
+				2F0AABFD202166D5001B5576 /* SCLTextView.h in Headers */,
+				2F0AABFF202166D5001B5576 /* SCLTimerDisplay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F0AABBE20216473001B5576 /* helloChina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0AABD720216473001B5576 /* Build configuration list for PBXNativeTarget "helloChina" */;
+			buildPhases = (
+				2F0AABBA20216473001B5576 /* Sources */,
+				2F0AABBB20216473001B5576 /* Frameworks */,
+				2F0AABBC20216473001B5576 /* Headers */,
+				2F0AABBD20216473001B5576 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloChina;
+			productName = helloChina;
+			productReference = 2F0AABBF20216473001B5576 /* libhelloChina.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F0AABB620216473001B5576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					2F0AABBE20216473001B5576 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F0AABB920216473001B5576 /* Build configuration list for PBXProject "helloChina" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F0AABB520216473001B5576;
+			productRefGroup = 2F0AABC020216473001B5576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0AABBE20216473001B5576 /* helloChina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0AABBD20216473001B5576 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0AABBA20216473001B5576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0AABF7202166D5001B5576 /* SCLAlertViewStyleKit.m in Sources */,
+				2F0AABD120216473001B5576 /* helloChina.m in Sources */,
+				2F0AABFE202166D5001B5576 /* SCLTextView.m in Sources */,
+				2F0AABF5202166D5001B5576 /* SCLAlertViewResponder.m in Sources */,
+				2F0AAC00202166D5001B5576 /* SCLTimerDisplay.m in Sources */,
+				2F0AABDD202166B7001B5576 /* BABYStringEncoding.m in Sources */,
+				2F0AAC02202166D5001B5576 /* UIImage+ImageEffects.m in Sources */,
+				2F0AABF9202166D5001B5576 /* SCLButton.m in Sources */,
+				2F0AABFC202166D5001B5576 /* SCLSwitchView.m in Sources */,
+				2F0AABF3202166D5001B5576 /* SCLAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F0AABD520216473001B5576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		2F0AABD620216473001B5576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		2F0AABD820216473001B5576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49U329UV5Q;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloChina/helloChina-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		2F0AABD920216473001B5576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49U329UV5Q;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloChina/helloChina-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0AABB920216473001B5576 /* Build configuration list for PBXProject "helloChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0AABD520216473001B5576 /* Debug */,
+				2F0AABD620216473001B5576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0AABD720216473001B5576 /* Build configuration list for PBXNativeTarget "helloChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0AABD820216473001B5576 /* Debug */,
+				2F0AABD920216473001B5576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F0AABB620216473001B5576 /* Project object */;
+}
