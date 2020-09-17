@@ -86,8 +86,8 @@ CHHook(1, HpLib_Graphics, makeTextImage);
 除了上面的渲染函数，另外可能还有其他的需要处理的方法，并不是所有的文本都是通过这个渲染函数来实现的，还有一部分是通过其他的方法实现的。具体可以参考项目里面的代码。
 
 汉化效果：  
-![Cat1](screenshot/cat1.png)  
-![Cat2](screenshot/cat2.png)  
+![Cat1](screenshot/cat1.PNG)  
+![Cat2](screenshot/cat2.PNG)  
 
 字典文件加密解密方法：   
 > 加密key aCDEfGHijKlMnopQRsUvWXz012345689
